@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LatihanWeek3</title>
+    <link rel="shorcut icon" href="logotitle.png" type="image/x-icon">
+</head>
+<body>
+    <header align = "center" style="background-color: darkorange;">
+        <img src = "KIC_2024_lightmode.png" width="230" height="150"></br>
+    </header>
+    
+    <div id = "navbar" align = "center" >
+        <a href = "#home" style="color: black;">Home</a>
+        <a href = "#about" style="color: black;">About</a>
+        <a href = "#video"style="color: black;">Video</a>
+        <a href = "#BGM"style="color: black;">BGM</a>
+        <a href = "#form"style="color: black;">Form</a>
+        <a href = "#contact"style="color: black;">Contact</a>
+    </div>
+
+    <section>
+        <article>
+            <div id = "about">
+                <h2>Home</h2>
+                <p><b>Honor of Kings Championship 2024</b> adalah puncak dari seri kompetitif Honor of Kings, 
+                    yang berlangsung di Jakarta mulai 12 Oktober 2024. Turnamen ini merupakan ajang dunia yang pertama kali tidak melibatkan tim dari Tiongkok, 
+                    karena mereka berkompetisi di liga domestik KPL Grand Finals. Total 16 tim dari seluruh dunia bersaing memperebutkan hadiah sebesar 1 juta USD.
+                </p>
+                <p>Format turnamen dimulai dengan Group Stage (12-17 Oktober), di mana tim dibagi menjadi 4 grup yang bertanding dalam sistem round-robin. 
+                    Dua tim terbaik dari masing-masing grup akan maju ke Playoffs (18-19 dan 25-27 Oktober), yang menggunakan sistem Double Elimination. 
+                    Pertandingan di babak Playoff berlangsung dalam format Best of 5 (Bo5), sementara babak final akan diselesaikan dengan Best of 7 (Bo7).
+                </p>
+            </div>
+        </article>
+    </section>
+    <aside>
+        <div id = "video">
+            <h2>Offical Video</h2>
+            <div id = "VideoMeetTheTeam" align = "center">
+                <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/IX7vnwsKM0o"
+                frameborder="0" allowfullscreen></iframe> 
+            </div>
+        </div>
+        <div id = "BGM">
+            <h2>Offical BGM for Tournament</h2>
+            <audio controls> 
+                <source src="The Contender - Honor of Kings (youtube).mp3" type="audio/mpeg"> 
+                Browser Anda tidak mendukung audio. 
+            </audio> 
+        </div>
+        <div id = "form">
+            <h2>Form</h2>
+            <p>Silahkan isi data Anda</p>
+            <form>
+                <table border = "1">
+                    <tr>
+                        <td><label for="name">Nama Lengkap:</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" id="password" name="password"></td>
+                    </tr>
+                    <td>Program Studi:</td>
+                        <td>
+                            <select name = "Prodi" id ="prodi">
+                                <option value="Ilmu Komputer">Ilmu Komputer</option>
+                                <option value="Teknik Kimia">Teknik Kimia</option>
+                                <option value="Manajemen">Manajemen</option>
+                            </select>
+                        </td>
+                    <tr>
+                        <td>Jenis Kelamin:</td>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male"><b>Laki-laki</b></label> <br>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female"><b>Perempuan</b></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Alamat:</label></td>
+                        <td><textarea id="address" name="address" rows="3" cols="50" placeholder="Isi Alamat Anda"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Sudah bayar?</td>
+                        <td>
+                            <input type="checkbox" id="paid" name="paid" value="yes">
+                            <label for="paid">Sudah</label>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" value="Kirim"></input>
+                <input type="reset" value="Reset"></input>
+            </form>
+        </div>
+    </aside>
+    <footer>
+        <p>&copy;2024.Semua Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
